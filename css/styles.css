@@ -138,9 +138,7 @@ li {
 
 .title-container {
     flex-direction: column;
-    display: flex;
-    gap: 40px;
-    margin: 0 auto;
+
 }
 
 .post-title {
@@ -151,7 +149,6 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    display: flex;
 
     max-width: 496px;
 }
@@ -165,7 +162,6 @@ li {
     background-color: #4d5ae5;
     cursor: pointer;
     letter-spacing: 0.04em;
-    display: flex;
     margin-right: auto;
     margin-left: auto;
     min-width: 169px;
