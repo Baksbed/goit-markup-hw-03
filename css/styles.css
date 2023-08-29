@@ -76,7 +76,6 @@ li {
 
 .header-link-address {
     gap: 40px;
-    padding: 24px 0;
 
 }
 
@@ -125,13 +124,9 @@ li {
     align-items: center;
 }
 
-/* Maim */
-
-
 /* Hero section */
 .title {
     background-color: #2e2f42;
-    display: flex;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -149,17 +144,18 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     max-width: 496px;
+    margin: auto;
+    padding-bottom: 2%;
 }
 
 .button-title {
-    color: #fff;
+    color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
     cursor: pointer;
     letter-spacing: 0.04em;
     margin-right: auto;
@@ -174,8 +170,7 @@ li {
 
 .button-title:hover,
 .button-title:focus {
-    color: #404bbf;
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
 
 /* Description */
@@ -207,9 +202,6 @@ li {
 .container-description-line {
     display: flex;
     gap: 24px;
-    padding-top: auto;
-
-
 }
 
 .heading-subtitle {
@@ -279,7 +271,6 @@ li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .block-image {
@@ -309,7 +300,6 @@ li {
 }
 
 .portfolio-text {
-    margin-top: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -323,7 +313,6 @@ li {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     margin-bottom: 72px;
 }
 
@@ -346,8 +335,8 @@ li {
 /* section footer */
 .footer {
     background-color: #2e2f42;
-    height: 312px;
-    padding: 100px 0;
+    padding: 50px;
+    
 }
 
 .footer-text {
@@ -356,7 +345,6 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 18px;
 }
 
 .logo-footer {
@@ -373,11 +361,6 @@ li {
 
 .logo-studio-footer {
     color: #f4f4fd;
-}
-
-.footer-text-title {
-    justify-content: start;
-    padding-top: 100px;
 }
 
 .container {
